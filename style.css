@@ -1,0 +1,209 @@
+body{
+  font-family: Arial, Helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 1.1;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+.contact{
+  position: relative;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url('../img/background.jpeg');
+  background-size: cover;
+}
+.contact.content{
+  max-width: 800px;
+  text-align: center;
+}
+.contact.content{
+  font-size: 36px;
+  font-weight: 500;
+}
+.contact.content p{
+  font-weight: 300;
+  color: white;
+}
+.container.contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.container.contactInfo.box{
+  position: relative;
+  padding: 20px 0;
+  display: flex ;
+}
+.container.contactInfo.box.icon{
+  min-height: 60px;
+  height: 60px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.container.contactInfo.box.text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: white;
+  flex-direction: column;
+  font-weight: 300;
+}
+.contactForm{
+  width: 40%;
+  padding: 40px;
+  margin-bottom: 40px;
+  padding-right: 200px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+  background:blue;
+}
+.contactForm h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+.contactForm.inputBox{
+  position: relative;
+  width:100%;
+  margin-top: 10px;
+}
+.contactForm.inputBox input,.contactForm.inputBox textarea{
+  width: 100%;
+  padding: 50px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+}
+.contactForm.contactForm.inputBox span{
+  position: absolute;
+  right: 0;
+}
+#showcase.content{
+  max-width: 800px;
+  text-align: center;
+}
+#showcase.content h2{
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background: green;
+  color:white;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom:blue 7px solid;
+  padding-bottom: 0px;
+}
+header a {
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 20px;
+  float: left;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float:left;
+  margin: auto;
+}
+header #branding h1{
+  margin:0;
+  padding-left: 92px;
+
+}
+
+header nav{
+  float:right;
+  margin-top: 10px;
+}
+header .highlight, header .current a{
+  color: green;
+  font-weight: bold;
+}
+header a:hover{
+   color: white;
+   font-weight: bold;
+}
+header .logo a{
+   background-image:url('../img/original.png');
+   background-size: 60px;
+   display: inline-block;
+   background-repeat: no-repeat;
+   height: 80px;
+   position: relative;
+   text-indent: -9999999px;
+   top: -45px;
+   width: 100px;
+   padding-top: 0px;
+   border-radius: 7px;
+   margin-bottom: 10px;
+
+}
+ 
+ #showcase{
+ height: 570px;
+ background-image:url('../img/background.jpeg');
+}
+#address h2{
+  line-height:1.2em;
+}
+footer{
+  background: green;
+  color:white;
+  padding-top: 10px;
+  min-height: 70px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+section i{
+  border-radius: 100%;
+  width: 50px;
+  height: 30px;
+  color:blue;
+  text-align: left;
+  float: left;
+}
+
+@media(max-width:768px){
+  header #branding, #branding h1
+  header nav, .contact,.icon,.text, textarea,input,
+  header nav li,.box,.box p{
+  text-align:left;
+  width:100%;
+  }
+  header{
+    padding-bottom: 20px;
+  }
+  #showcase h1{
+     margin-top: 40px;
+  }
+}
+
